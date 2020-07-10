@@ -1,0 +1,17 @@
+.container {
+  width: 500px;
+  height: 300px;
+  border: 1px solid;
+  margin: auto;
+  padding: 15px;
+}
+
+.authors {
+  height: 50px;
+  text-align: right;
+}
+
+.parent {
+  height: 70px;
+  border-radius: 7px;
+}
