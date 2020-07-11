@@ -46,7 +46,13 @@ class Main extends React.Component {
           items={updateQuote[this.state.count]}
           author={updateAuthor[this.state.count]}
         />
-        <button onClick={this.handleClick}>New Quote</button>
+        <button
+          className="generator"
+          style={{ color: this.randomColor() }}
+          onClick={this.handleClick}
+        >
+          New Quote
+        </button>
       </div>
     );
   }
